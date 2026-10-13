@@ -10,7 +10,7 @@ The recorded demo succeeded on October 13, 2026 with 20/20 verification checks a
 
 ## 2. Open the existing credential
 
-Open `/credential/7Safc4u3STxFdjfo84NPwg5ZMcG8DVHef9tE6VwEEW1P` on the public site. Show its generic REST API Development skill, Beginner level, score of 50, and demo label.
+Open the [public credential page](https://bridge-proof.vercel.app/credential/7Safc4u3STxFdjfo84NPwg5ZMcG8DVHef9tE6VwEEW1P). Show its generic REST API Development skill, Beginner level, score of 50, and demo label.
 
 “This credential was issued through the official Solana Attestation Service on Devnet. Its assessment was a deterministic demonstration fixture, and that provenance is recorded on-chain. The fixed score is not proof of competence.”
 

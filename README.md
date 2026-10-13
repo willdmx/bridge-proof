@@ -6,6 +6,10 @@ Bridge Proof turns learning evidence into a portable skill credential, records i
 
 **The public deployment is read-only.** Visitors can inspect and independently verify the real Devnet credential below and compare its evidence hash. Both write APIs return `403 READ_ONLY_DEMO` before parsing input, creating a preview, calling AI, or signing a transaction. No wallet private key, OpenAI key, or credential-signing secret belongs in the public deployment.
 
+**Live demo:** [bridge-proof.vercel.app](https://bridge-proof.vercel.app) · [Verified credential](https://bridge-proof.vercel.app/credential/7Safc4u3STxFdjfo84NPwg5ZMcG8DVHef9tE6VwEEW1P) · [Independent verification result](https://bridge-proof.vercel.app/api/verify/7Safc4u3STxFdjfo84NPwg5ZMcG8DVHef9tE6VwEEW1P)
+
+The public deployment passed anonymous page/API checks on October 13, 2026. Both proof APIs returned 20/20 successful verification checks, and both write APIs returned HTTP 403. Solana Explorer rate-limited automated link checks (HTTP 429); the application's verification reads Devnet RPC directly and succeeded independently of Explorer.
+
 ```text
 Learning evidence → Labeled demo assessment → Structured credential
                  → Solana Devnet attestation → Independent verification → VERIFIED
