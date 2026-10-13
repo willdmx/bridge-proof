@@ -8,7 +8,7 @@ Bridge Proof turns learning evidence into a portable skill credential, records i
 
 **Live demo:** [bridge-proof.vercel.app](https://bridge-proof.vercel.app) · [Verified credential](https://bridge-proof.vercel.app/credential/7Safc4u3STxFdjfo84NPwg5ZMcG8DVHef9tE6VwEEW1P) · [Independent verification result](https://bridge-proof.vercel.app/api/verify/7Safc4u3STxFdjfo84NPwg5ZMcG8DVHef9tE6VwEEW1P)
 
-The public deployment passed anonymous page/API checks on October 13, 2026. Both proof APIs returned 20/20 successful verification checks, and both write APIs returned HTTP 403. Solana Explorer rate-limited automated link checks (HTTP 429); the application's verification reads Devnet RPC directly and succeeded independently of Explorer.
+The public deployment passed anonymous page/API and interactive browser checks on October 13, 2026. Both proof APIs and the public verification form returned 20/20 successful verification checks, and both write APIs returned HTTP 403. Solana Explorer loaded the transaction in the browser with **Success — Finalized**. Automated HTTP requests to Explorer were rate-limited; the application's verification reads Devnet RPC directly and succeeded independently of Explorer.
 
 ```text
 Learning evidence → Labeled demo assessment → Structured credential
