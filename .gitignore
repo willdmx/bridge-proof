@@ -142,8 +142,19 @@ vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
 
+# Generated Next.js types and local Devnet keypairs
+next-env.d.ts
+.local/
+.secrets/
+.vercel/
+*-keypair.json
+issuer-wallet.json
+
 # Astro generated types
 .astro/
 
 # Turbo Repo
 .turbo
+.vercel
+.env*
+!.env.example

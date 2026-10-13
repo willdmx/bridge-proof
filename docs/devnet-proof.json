@@ -1,0 +1,119 @@
+{
+  "analysisMode": "demo",
+  "evidenceHash": "f7b06a96e26458c3e848ac6947aa6af979defce4c28927d2afa9e5cab6a0bd73",
+  "credential": {
+    "subjectHash": "c8694d6109bd4ab538261358d0f8c34acc27fef6eb0cd621d24159a4160a89ab",
+    "skill": "REST API Development",
+    "level": "Beginner",
+    "score": 50,
+    "evidenceHash": "f7b06a96e26458c3e848ac6947aa6af979defce4c28927d2afa9e5cab6a0bd73",
+    "issuer": "Bridge Proof",
+    "issuedAt": "2026-10-13T03:50:51.014Z",
+    "version": "1.0",
+    "solanaReference": "7Safc4u3STxFdjfo84NPwg5ZMcG8DVHef9tE6VwEEW1P"
+  },
+  "transactionSignature": "4nbKAbv3t6bNGTkrcEBBMVLC5YRzKppTVrAcKG84R7CnmAgkBeayicpxW6bYaKUueR8Bd3oKQoLx8KA4WHQdBqCN",
+  "verification": {
+    "verified": true,
+    "network": "devnet",
+    "proofType": "sas",
+    "attestationAddress": "7Safc4u3STxFdjfo84NPwg5ZMcG8DVHef9tE6VwEEW1P",
+    "explorerUrl": "https://explorer.solana.com/address/7Safc4u3STxFdjfo84NPwg5ZMcG8DVHef9tE6VwEEW1P?cluster=devnet",
+    "checks": [
+      {
+        "name": "RPC is Solana Devnet",
+        "passed": true
+      },
+      {
+        "name": "Accounts fetched at confirmed commitment",
+        "passed": true
+      },
+      {
+        "name": "Attestation exists on-chain",
+        "passed": true
+      },
+      {
+        "name": "Issuer credential and schema exist on-chain",
+        "passed": true
+      },
+      {
+        "name": "Accounts are owned by the official SAS program",
+        "passed": true
+      },
+      {
+        "name": "SAS account discriminators are valid",
+        "passed": true
+      },
+      {
+        "name": "Trusted issuer credential and authority",
+        "passed": true
+      },
+      {
+        "name": "Trusted Bridge Proof schema and version",
+        "passed": true
+      },
+      {
+        "name": "Schema layout matches the public credential format",
+        "passed": true
+      },
+      {
+        "name": "Schema is active",
+        "passed": true
+      },
+      {
+        "name": "Attestation belongs to trusted credential and schema",
+        "passed": true
+      },
+      {
+        "name": "Attestation signer is the trusted authorized issuer",
+        "passed": true
+      },
+      {
+        "name": "Attestation address matches the SAS PDA",
+        "passed": true
+      },
+      {
+        "name": "Attestation has not expired",
+        "passed": true
+      },
+      {
+        "name": "On-chain credential structure is valid",
+        "passed": true
+      },
+      {
+        "name": "Credential references this attestation",
+        "passed": true
+      },
+      {
+        "name": "Issue date is valid and precedes expiry",
+        "passed": true
+      },
+      {
+        "name": "Credential digest and AI provenance match",
+        "passed": true
+      },
+      {
+        "name": "Attestation nonce matches credential contents",
+        "passed": true
+      },
+      {
+        "name": "Payload uses canonical encoding",
+        "passed": true
+      }
+    ],
+    "verifiedAt": "2026-10-13T03:50:58.521Z",
+    "credential": {
+      "subjectHash": "c8694d6109bd4ab538261358d0f8c34acc27fef6eb0cd621d24159a4160a89ab",
+      "skill": "REST API Development",
+      "level": "Beginner",
+      "score": 50,
+      "evidenceHash": "f7b06a96e26458c3e848ac6947aa6af979defce4c28927d2afa9e5cab6a0bd73",
+      "issuer": "Bridge Proof",
+      "issuedAt": "2026-10-13T03:50:51.014Z",
+      "version": "1.0",
+      "solanaReference": "7Safc4u3STxFdjfo84NPwg5ZMcG8DVHef9tE6VwEEW1P"
+    },
+    "analysisMode": "demo",
+    "transactionSignature": "4nbKAbv3t6bNGTkrcEBBMVLC5YRzKppTVrAcKG84R7CnmAgkBeayicpxW6bYaKUueR8Bd3oKQoLx8KA4WHQdBqCN"
+  }
+}

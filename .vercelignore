@@ -1,0 +1,15 @@
+.git
+.vercel
+.next
+node_modules
+.env
+.env.*
+.secrets
+.local
+*-keypair.json
+issuer-wallet.json
+.cache
+coverage
+*.log
+*.tsbuildinfo
+next-env.d.ts
